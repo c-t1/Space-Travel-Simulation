@@ -7,3 +7,7 @@ dist-ssr
 *.local
 .DS_Store
 npm-debug.log*
+
+# Private notes — never commit
+HANDOFF.md
+.claude/
