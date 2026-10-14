@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, Arial, sans-serif;
+  line-height: 1.5;
+  color: #222;
+  background: #f4f5f7;
+}
+
+#root {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+/*Header - a bar with spaced-out links */
+nav {
+  display: flex;
+  gap: 20px;
+  padding: 12px 16px;
+  margin-bottom: 24px;
+  background: #1e2a44;
+  border-radius: 6px;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 8px 0 16px;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 32px 0 8px;
+  padding-top: 16px;
+  border-top: 1px solid #ccc;
+}
+
+p {
+  margin-bottom: 12px;
+}
+
+a {
+  color: #1a56db;
+}
+
+/*List items as cards (spacecraft list, ships on planets, home features) */
+ul {
+  margin: 16px 0;
+}
+
+li {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 12px 16px;
+  margin-bottom: 12px;
+}
+
+img {
+  display: block;
+  max-width: 250px;
+  height: auto;
+  margin: 8px 0;
+}
+
+form div {
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+input,
+textarea,
+select,
+button {
+  font: inherit;
+  padding: 6px 10px;
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+
+input,
+textarea {
+  width: 100%;
+}
+
+textarea {
+  min-height: 100px;
+}
+
+select {
+  margin-left: 8px;
+}
+
+button {
+  background: white;
+  cursor: pointer;
+  margin: 8px 0;
+}
+
+button:hover {
+  background: #e8eaee;
+}
+
+form p,
+li p {
+  color: #c62828;
+  margin: 4px 0 0;
+}
